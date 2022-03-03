@@ -17,7 +17,7 @@ module.exports = {
     watch: true, //detecta el cambio si volver a compilar
     resolve: {
         extensions: ['.js'],
-        alias: {
+        alias: { 
             '@utils': path.resolve(__dirname, 'src/utils'),
             '@templates': path.resolve(__dirname, 'src/templates'),
             '@styles': path.resolve(__dirname, 'src/styles'),
